@@ -1,36 +1,106 @@
-body{
-    min-height: 84vh;
-    margin: 0;
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    background: url('/images/home-bg.jpg') no-repeat center center;
-    background-size: cover;
 }
 
+body{
+    font-family: sans-serif;
+}
+
+.home-page{
+    min-height: 100vh;
+    background-image: url('/images/home-bg.jpg');
+    -webkit-background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+}
+
+.content-holder{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
 
 .home-header{
     text-align: center;
     margin-bottom: 2em;
-    margin-top: 5rem;
     color: white;
     font-size: 3em;
 }
 
 .recipes-holder{
     background: whitesmoke;
-    padding: 3em 2.5em;
+    padding: 1em 2.5em;
     border: 2px solid black;
     border-radius: 0.5em;
     font-size: 1.2em;
     line-height: 2em;
 }
 
-ul{
+.recipes-links{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 0px;
 }
 
-a{
+.menu-link{
     color: black;
+}
+
+/* mint-chicken */
+.mc-header{
+    padding:5%;
+}
+
+.menu-img{
+    max-width: 100px;
+    min-width: 200px;
+    border-radius: 1em;
+    padding: 0;
+    margin: 2%;
+}
+
+.mc-content-holder{
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.menu-bg {
+    min-height: 100vh;
+    background-image: url('/images/menu-bg.jpg');
+    background-size: cover;
+    background-position: cover cover;
+    background-repeat: no-repeat;
+}
+
+.hero-holder{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+}
+
+.about-holder{
+    margin: 10px 5em;
+    text-align: center;
+}
+
+.steps-ingredient-holder{
+    width: 70%;
+    margin: 0% 15%;
+    padding: 2% 0% 5% 15%;
+    text-align: left;text-align: left;
+}
+
+.mc-steps-header{
+    margin-top: 5%;
+}
+
+.mc-step1{
+    margin-bottom: 5%;
 }
