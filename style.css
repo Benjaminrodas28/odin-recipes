@@ -54,8 +54,20 @@ body{
 }
 
 /* mint-chicken */
-.mc-header{
-    padding:5%;
+.miso-img{
+    max-width: 100px;
+    min-width: 200px;
+    border-radius: 1em;
+    padding: 0;
+    margin: 2%;
+}
+
+.asparagus-img{
+    max-width: 100px;
+    min-width: 200px;
+    border-radius: 1em;
+    padding: 0;
+    margin: 2%;
 }
 
 .menu-img{
@@ -66,7 +78,11 @@ body{
     margin: 2%;
 }
 
-.mc-content-holder{
+.recipe-header{
+    padding:20px;
+}
+
+.menu-content-holder{
     text-align: center;
     line-height: 1.5em;
 }
@@ -77,6 +93,7 @@ body{
     background-size: cover;
     background-position: cover cover;
     background-repeat: no-repeat;
+    font-size: 1em;
 }
 
 .hero-holder{
@@ -97,7 +114,7 @@ body{
     text-align: left;text-align: left;
 }
 
-.mc-steps-header{
+.steps-header{
     margin-top: 5%;
 }
 
