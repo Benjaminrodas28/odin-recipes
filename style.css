@@ -53,7 +53,7 @@ body{
     color: black;
 }
 
-/* mint-chicken */
+/* RECIPES*/
 .miso-img{
     max-width: 100px;
     min-width: 200px;
@@ -120,4 +120,27 @@ body{
 
 .mc-step1{
     margin-bottom: 5%;
+}
+
+/* BACK BOTTON  */
+
+.home-link{
+    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    transition-duration: 0.4s;
+    border: none;
+    text-decoration: none;
+    position:fixed;
+    bottom: 40%;
+    left:0px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.home-link:hover{
+    background-color: #4c90af; /* Green */
+    color: white;
 }
