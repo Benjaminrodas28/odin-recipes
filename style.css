@@ -10,11 +10,12 @@ body{
 
 .home-page{
     min-height: 100vh;
-    background-image: url('/images/home-bg.jpg');
+    background-image: url('/home-bg.jpg');
+    -webkit-background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    filter: blur(2px);
 }
 
 .content-holder{
@@ -72,9 +73,9 @@ body{
 .menu-bg {
     min-height: 100vh;
     background-image: url('/images/menu-bg.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-size: 1em;
 }
 
