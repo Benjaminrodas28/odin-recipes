@@ -11,11 +11,11 @@ body{
 .home-page{
     min-height: 100vh;
     background-image: url('/home-bg.jpg');
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover; */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(2px);
+    /* filter: blur(2px); */
 }
 
 .content-holder{
